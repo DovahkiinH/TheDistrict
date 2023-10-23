@@ -1,0 +1,29 @@
+#menu {
+
+    background-color: #970646;
+
+}
+
+.nav-link {
+    color: #46b3cf;
+}
+
+.custom-search-bg {
+    background-image: url('/Assets/Img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 22vh; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white; 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search-form {
+
+    border-radius: 5px;
+    padding: px;
+
+}
