@@ -10,7 +10,7 @@
 
 .custom-search-bg {
     background-image: url('/Assets/Img/bg.jpg');
-    background-size:unset ;
+    background-size:cover ;
     background-position: center;
     height: 22vh; 
       display: flex;
@@ -32,4 +32,8 @@
     margin-left: 40%;
     margin-right: 40%;
 
+}
+
+body{
+    background-color: #fef4e8;
 }
