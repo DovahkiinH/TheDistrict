@@ -130,15 +130,6 @@
   "image": "lasagnes_viande.jpg",
   "id_categorie": 10,
   "active": "Yes"
- },
- {
-  "id_plat": 17,
-  "libelle": "Tagliatelles au saumon",
-  "description": "Découvrez notre recette délicieuse de tagliatelles au saumon frais et à la crème qui qui vous assure un véritable régal!",
-  "prix": 12,
-  "image": "tagliatelles_saumon.webp",
-  "id_categorie": 10,
-  "active": "Yes"
  }
 ]
 }
