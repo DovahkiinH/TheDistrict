@@ -84,7 +84,7 @@ $(document).ready(function() {
         },
     ];
 
-    var itemsPerPage = 5;
+    var itemsPerPage = 3;
     var pageCount = Math.ceil(plats.length / itemsPerPage);
 
     var carouselInner = $('.carousel-inner');
