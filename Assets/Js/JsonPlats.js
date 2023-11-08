@@ -105,6 +105,7 @@ $(document).ready(function() {
                             <h5 class="card-title">${plat.libelle}</h5>
                             <p class="card-text">${plat.description}</p>
                             <p class="card-price">Prix : ${plat.prix} €</p>
+                            <a href="/Commande.html" class="btn btn-primary">Commander</a>
                         </div>
                     </div>
                 </div>
