@@ -27,7 +27,9 @@
 
 <body>
 
-  <?php include 'header.php'; ?>
+  <?php include 'Assets/Php/header.php'; 
+  
+  ?>
 
     
         </header>
@@ -120,7 +122,9 @@
 
       </div>
 
-          
+      <?php include 'Assets/Php/footer.php';
+      
+      ?>
 
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>

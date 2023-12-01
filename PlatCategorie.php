@@ -27,45 +27,9 @@
 
 <body>
 
-    <div class="container-fluid">
-
-        <header>
-    
-                <div class="col-12 d-flex" id="menu">
-
-                      <div class="col-1">
-
-                        <img src="/Assets/Img/the_district_brand/logo.png" class="col-8 img-fluid" alt="district_logo">
-
-                      </div>
-                      
-                        <nav class="navbar navbar-expand-lg">
-
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                            
-                            <span class="navbar-toggler-icon"></span>
-                          
-                          </button>
-
-                          <div class="collapse navbar-collapse" id="navigation">
-    
-                            <ul class="navbar-nav ">
-                    
-                               <li class="nav-item active"> <a class="nav-link" href="Index.html">Accueil</a> </li>
-                    
-                               <li class="nav-item"> <a class="nav-link" href="Categorie.html">Catégorie</a> </li>
-                    
-                               <li class="nav-item"> <a class="nav-link" href="Plats.html">Plats</a> </li>
-
-                               <li class="nav-item"> <a class="nav-link" href="Contact.html">Contact</a> </li>
-
-                               <li class="nav-item disabled"> <a class="nav-link" href="Commande.html">Commande</a> </li>
-                    
-                            </ul>
-
-                          </div>
-                
-                        </nav>
+  <?php include 'Assets/Php/header.php'; 
+  
+  ?>
     
         </header>
 
@@ -271,33 +235,9 @@
 
         </section>
 
-        <footer class="" id="footer">
-
-          <div class="col-12 d-flex justify-content-center">
-  
-            <a href="Reseau.html">
-              <img src="/Assets/Img/logo/ytb.png" class="col-4 mt-2 rounded-circle zoom" title="Youtube"/>
-              </a>
-    
-            <a href="Reseau.html">
-              <img src="/Assets/Img/logo/Fb.jpeg" class="col-4 mt-2 rounded-circle zoom" title="Facebook"/>
-              </a>
-    
-            <a href="Reseau.html">
-              <img src="/Assets/Img/logo/Twitter.png" class="col-4 mt-2 rounded-circle zoom" title="Twitter"/>
-              </a>
-
-            <a href="Reseau.html">
-              <img src="/Assets/Img/logo/Insta.jpeg" class="col-4 mt-2 rounded-circle zoom" title="Instagram"/>
-              </a>
-    
-            <a href="Reseau.html">
-              <img src="/Assets/Img/logo/Snap.jpg" class="col-4 mt-2 rounded-circle zoom" title="Snapchat"/>
-              </a>
-
-          </div>
-
-      </footer>
+        <?php include 'Assets/Php/footer.php';
+      
+      ?>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
