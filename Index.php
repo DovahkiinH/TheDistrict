@@ -68,15 +68,15 @@
 
         <div class="col-12 d-flex mx-5 justify-content-around">
 
-          <a href="/PlatCategorie.html">
+          <a href="/PlatCategorie.php">
             <img src="/Assets/Img/category/burger_cat.jpg" class="col-8 mt-2 rounded-4 zoom" title="Catégorie Burger"/>
             </a>
   
-          <a href="/PlatCategorie.html">
+          <a href="/PlatCategorie.php">
             <img src="/Assets/Img/category/pizza_cat.jpg" class="col-8 mt-2 rounded-4 zoom" title="Catégorie Pizza"/>
             </a>
   
-          <a href="/PlatCategorie.html">
+          <a href="/PlatCategorie.php">
             <img src="/Assets/Img/category/sandwich_cat.jpg" class="col-8 mt-2 rounded-4 zoom" title="Catégorie Sandwich"/>
             </a>
   
@@ -84,15 +84,15 @@
 
         <div class="col-12 mt-2 mx-5 d-flex justify-content-around">
 
-        <a href="PlatCategorie.html">
+        <a href="PlatCategorie.php">
           <img src="/Assets/Img/category/wrap_cat.jpg" class="col-8 my-2 rounded-4 zoom" title="Catégorie Wrap"/>
           </a>
 
-        <a href="PlatCategorie.html">
+        <a href="PlatCategorie.php">
           <img src="/Assets/Img/category/pasta_cat.jpg" class="col-8 my-2 rounded-4 zoom" title="Catégorie Pâtes"/>
           </a>
 
-        <a href="PlatCategorie.html">
+        <a href="PlatCategorie.php">
           <img src="/Assets/Img/category/veggie_cat.jpg" class="col-8 my-2 rounded-4 zoom" title="Catégorie Veggie"/>
           </a>
 
@@ -106,15 +106,15 @@
 
         <div class="col-12 mx-5 d-flex justify-content-around">
 
-          <a href="Plats.html">
+          <a href="Plats.php">
             <img src="/Assets/Img/menu-burger.jpg" class="col-8 my-2 rounded-4 zoom" title="Burger"/>
             </a>
   
-          <a href="Plats.html">
+          <a href="Plats.php">
             <img src="/Assets/Img/menu-pizza.jpg" class="col-8 my-2 rounded-4 zoom" title="Pizza"/>
             </a>
   
-          <a href="Plats.html">
+          <a href="Plats.php">
             <img src="/Assets/Img/food/Food.Name.3461.jpg" class="col-8 my-2 rounded-4 zoom" title="Wrap"/>
             </a>
   

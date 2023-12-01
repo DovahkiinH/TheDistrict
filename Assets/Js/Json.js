@@ -16,7 +16,7 @@ $(document).ready(function() {
                     var group = categories.slice(i, i + 4);
                     var groupHTML = '';
                     group.forEach(function(categorie, index) {
-                        groupHTML += '<a href="/PlatCategorie.html">' +
+                        groupHTML += '<a href="/PlatCategorie.php">' +
                             '<img src="/Assets/Img/category/' + categorie.image + '" class="col-2 my-2 mx-5 rounded-4 zoom" title="' + categorie.libelle + '">' +
                             '</a>';
                     });

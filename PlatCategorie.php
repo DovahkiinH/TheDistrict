@@ -71,7 +71,7 @@
 
                       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure earum possimus qui ipsum nisi deserunt repudiandae suscipit ab, porro, hic, odio quia laborum quidem veniam temporibus expedita. Consequatur, odio obcaecati..</p>
 
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
 
                     </div>
 
@@ -87,7 +87,7 @@
 
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, blanditiis! Excepturi veritatis ab minus ex voluptate molestiae id ut vel repellat neque tenetur pariatur adipisci, sapiente reiciendis explicabo unde sed.</p>
 
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
 
                     </div>
 
@@ -107,7 +107,7 @@
   
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi non magnam provident commodi? Animi nulla vel aliquid quod dolorum, nesciunt cum mollitia repellat libero ab corporis dignissimos fuga nisi quo!</p>
   
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
   
                     </div>
   
@@ -123,7 +123,7 @@
   
                       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos at, aspernatur ex voluptatem delectus sequi recusandae. Commodi necessitatibus ipsam officiis obcaecati exercitationem temporibus, odio, veritatis ex mollitia ipsum nihil adipisci.</p>
   
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
   
                     </div>
   
@@ -147,7 +147,7 @@
 
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, accusamus sunt? Nam reprehenderit libero ullam cupiditate cumque ab sint nostrum nihil quo eos aliquam voluptates ut officia, quibusdam veniam architecto!</p>
 
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
 
                     </div>
 
@@ -163,7 +163,7 @@
 
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officia quisquam hic numquam iusto tempore saepe eligendi a cumque officiis, corrupti minima quas incidunt voluptatibus laudantium nihil inventore quibusdam ipsa.</p>
 
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
 
                     </div>
 
@@ -183,7 +183,7 @@
 
                       <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dolor porro possimus atque consectetur ratione sapiente saepe sint deserunt, molestias molestiae ducimus autem quos, officia voluptatem odit rem quam consequuntur.</p>
 
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
 
                     </div>
 
@@ -199,7 +199,7 @@
 
                       <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus soluta explicabo autem unde suscipit quaerat. Voluptatibus repellendus laboriosam adipisci cupiditate ratione architecto reprehenderit officiis, corrupti error optio dolores, et labore?</p>
 
-                      <a href="/Commande.html" class="btn btn-primary">Commander</a>
+                      <a href="/Commande.php" class="btn btn-primary">Commander</a>
 
                     </div>
 
