@@ -30,15 +30,15 @@
 
                     <ul class="navbar-nav">
             
-                       <li class="nav-item active"> <a class="nav-link fw-bold text-decoration-underline" href="Index.php">Accueil</a> </li>
+                       <li class="nav-item active"> <a class="nav-link text-decoration-underline" href="Index.php">Accueil</a> </li>
             
-                       <li class="nav-item"> <a class="nav-link" href="Categorie.php">Catégorie</a> </li>
+                       <li class="nav-item"> <a class="nav-link text-decoration-underline" href="Categorie.php">Catégorie</a> </li>
             
-                       <li class="nav-item"> <a class="nav-link" href="Plats.php">Plats</a> </li>
+                       <li class="nav-item"> <a class="nav-link text-decoration-underline" href="Plats.php">Plats</a> </li>
 
-                       <li class="nav-item"> <a class="nav-link" href="Contact.php">Contact</a> </li>
+                       <li class="nav-item"> <a class="nav-link text-decoration-underline" href="Contact.php">Contact</a> </li>
 
-                       <li class="nav-item disabled"> <a class="nav-link" href="Commande.php">Commande</a> </li>
+                       <li class="nav-item disabled"> <a class="nav-link text-decoration-underline" href="Commande.php">Commande</a> </li>
             
                     </ul>
 

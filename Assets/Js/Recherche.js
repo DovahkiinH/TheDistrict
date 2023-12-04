@@ -143,21 +143,26 @@ $(document).ready(function () {
     function updateResults(query) {
         resultsList.empty();
         if (!query) return;
-
+    
         const matchingPlats = categoriesAndPlats.plat.filter(plat => {
             return plat.libelle.toLowerCase().includes(query.toLowerCase());
         });
-
+    
         matchingPlats.forEach(plat => {
-            const listItem = `<li class="list-group-item">
+            const listItem = $(`<li class="list-group-item">
                 <h5>${plat.libelle}</h5>
                 <p>${plat.description}</p>
                 <p>Prix : ${plat.prix} €</p>
-            </li>`;
+            </li>`);
+    
+            listItem.click(function () {
+                window.location.href = `Plats.php?id=${plat.id_plat}`;
+            });
+    
             resultsList.append(listItem);
         });
     }
-
+    
     searchInput.on('input', function () {
         updateResults($(this).val());
     });

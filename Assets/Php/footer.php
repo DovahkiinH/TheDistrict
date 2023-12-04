@@ -6,23 +6,23 @@
 
 <div class="col-12 d-flex justify-content-center">
 
-  <a href="Reseau.html">
+  <a href="Reseau.php">
     <img src="/Assets/Img/logo/ytb.png" class="col-4 mt-2 rounded-circle zoom" title="Youtube"/>
     </a>
 
-  <a href="Reseau.html">
+  <a href="Reseau.php">
     <img src="/Assets/Img/logo/Fb.jpeg" class="col-4 mt-2 rounded-circle zoom" title="Facebook"/>
     </a>
 
-  <a href="Reseau.html">
+  <a href="Reseau.php">
     <img src="/Assets/Img/logo/Twitter.png" class="col-4 mt-2 rounded-circle zoom" title="Twitter"/>
     </a>
 
-  <a href="Reseau.html">
+  <a href="Reseau.php">
     <img src="/Assets/Img/logo/Insta.jpeg" class="col-4 mt-2 rounded-circle zoom" title="Instagram"/>
     </a>
 
-  <a href="Reseau.html">
+  <a href="Reseau.php">
     <img src="/Assets/Img/logo/Snap.jpg" class="col-4 mt-2 rounded-circle zoom" title="Snapchat"/>
     </a>
 
