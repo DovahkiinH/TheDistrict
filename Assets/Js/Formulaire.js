@@ -53,10 +53,5 @@ $(document).ready(function() {
         var telephoneValide = validateTelephone();
         var adresseValide = validateAdresse();
 
-        if (nomValide && emailValide && telephoneValide && adresseValide) {
-            alert('Formulaire valide. Vous pouvez soumettre.');
-        } else {
-            alert('Le formulaire contient des erreurs. Veuillez les corriger avant de soumettre.');
-        }
     });
 });
