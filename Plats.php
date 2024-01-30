@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-
-<html lang="fr">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="Keywords" content="Restauration,the district,commande,nourriture">
-    <meta name="Subject" content="Restauration">
-    <meta name="Author" content="Loick.C">
-    <meta name="Geography" content="Amiens,France,80000">
-    <meta name="Category" content="shopping">
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="/Assets/Css/Css.css">
-
-    <title>The District</title>
-
-</head>
-
-<body>
-
-  <?php include 'Assets/Php/header.php'; 
+<?php include 'Assets/Php/header.php'; 
   
   ?>
-    
-        </header>
-
         <div class="video-container">
 
           <video autoplay loop muted>
