@@ -1,0 +1,86 @@
+<section id="categorie">
+
+        <div class="col-12 d-flex mx-5 justify-content-around">
+
+          <a href="/PlatCategorie.php">
+            <img src="/Assets/Img/category/burger_cat.jpg" class="col-8 mt-2 rounded-4 zoom" title="Catégorie Burger"/>
+            </a>
+  
+          <a href="/PlatCategorie.php">
+            <img src="/Assets/Img/category/pizza_cat.jpg" class="col-8 mt-2 rounded-4 zoom" title="Catégorie Pizza"/>
+            </a>
+  
+          <a href="/PlatCategorie.php">
+            <img src="/Assets/Img/category/sandwich_cat.jpg" class="col-8 mt-2 rounded-4 zoom" title="Catégorie Sandwich"/>
+            </a>
+  
+        </div>
+
+        <div class="col-12 mt-2 mx-5 d-flex justify-content-around">
+
+        <a href="PlatCategorie.php">
+          <img src="/Assets/Img/category/wrap_cat.jpg" class="col-8 my-2 rounded-4 zoom" title="Catégorie Wrap"/>
+          </a>
+
+        <a href="PlatCategorie.php">
+          <img src="/Assets/Img/category/pasta_cat.jpg" class="col-8 my-2 rounded-4 zoom" title="Catégorie Pâtes"/>
+          </a>
+
+        <a href="PlatCategorie.php">
+          <img src="/Assets/Img/category/veggie_cat.jpg" class="col-8 my-2 rounded-4 zoom" title="Catégorie Veggie"/>
+          </a>
+
+        </div>
+
+        
+
+      </section>
+
+
+      <div id="plats">
+
+        <div class="col-12 mx-5 d-flex justify-content-around">
+
+          <a href="Plats.php">
+            <img src="/Assets/Img/menu-burger.jpg" class="col-8 my-2 rounded-4 zoom" title="Burger"/>
+            </a>
+  
+          <a href="Plats.php">
+            <img src="/Assets/Img/menu-pizza.jpg" class="col-8 my-2 rounded-4 zoom" title="Pizza"/>
+            </a>
+  
+          <a href="Plats.php">
+            <img src="/Assets/Img/food/Food.Name.3461.jpg" class="col-8 my-2 rounded-4 zoom" title="Wrap"/>
+            </a>
+  
+        </div>
+
+      </div>
+
+      <section id="categorie">
+
+            <div id="carousel" class="carousel slide">
+
+              <div class="carousel-inner">
+
+              </div>
+
+              <div id="bouton" class="d-flex justify-content-between">
+
+                  <button class="btn btn-outline-dark border-2" data-slide="prev" data-target="#carousel">
+
+                      Précédent
+
+                  </button>
+
+                  <button class="btn btn-outline-dark border-2" data-slide="next" data-target="#carousel">
+
+                      Suivant
+
+                  </button>
+
+              </div>
+              
+          </div>
+            
+          </section>
