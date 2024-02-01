@@ -1,5 +1,5 @@
 <?php 
-    require_once '../Views/Partials/header.php';
+    require_once 'Views/Partials/header.php';
 ?>
 
 <div class="video-container">
@@ -32,26 +32,49 @@
 
         <div class="parallax d-none d-md-block"></div>
 
+        <div class=" mt-3 row">
+
         <?php
         $categories = DAO::getCategoriePopulaire();
         foreach ($categories as $categorie) {
+
             echo '
-            <div class="col-md-4 d-flex justify-content-center justify-content-md-end mb-4">
-                <div class="card zoom">
+            <div class="col-3 mx-5 my-3 d-flex justify-content-around">
+                <div class="card zoom col-5 pt-2 px-2">
                     <img src="Assets/Img/category/' . $categorie['image'] . '" class="card-img-top card-img" alt="Image de la carte">
                     <div class="card-body">
-                        <h5 class="card-title">' . $categorie['libelle'] . '</h5>
+                        <h5 class="card-title text-center">' . $categorie['libelle'] . '</h5>
                     </div>
                 </div>
             </div>';
         }
         ?>
  
+        </div>
+
         <div class="parallax2 d-none d-md-block"></div>
 
-      
+        <div class=" mt-3 row">
 
-      <?php include '../Views/Partials/footer.php';
+        <?php
+        $plats = DAO::getPlatPlusVendu();
+        foreach ($plats as $plat) {
+
+            echo '
+            <div class="col-3 mx-5 my-3 d-flex justify-content-around">
+                <div class="card zoom col-5 pt-2 px-2">
+                    <img src="Assets/Img/food/' . $plat['image'] . '" class="card-img-top card-img" alt="Image de la carte">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">' . $plat['libelle'] . '</h5>
+                    </div>
+                </div>
+            </div>';
+        }
+        ?>
+
+        </div>
+
+      <?php include 'Views/Partials/footer.php';
       
       ?>
 
