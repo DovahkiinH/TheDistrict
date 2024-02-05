@@ -129,4 +129,28 @@ class DAO {
             exit('Erreur lors de l\'exécution de la requête : ' . $e->getMessage());
         }
     }
+
+    public static function getPlatFormulaire($id){
+
+        $bdd = dbconnect();
+
+        try {
+
+            $query = "SELECT id, libelle, description, prix, image
+            FROM plat
+            WHERE id = :id";
+
+            $stmt = $bdd->prepare($query);
+            $stmt->bindParam(':id', $id);
+            $stmt->execute();
+
+            $platFormulaire = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+            return $platFormulaire;
+        } catch (PDOException $e) {
+            
+            exit('Erreur lors de l\'exécution de la requête : ' . $e->getMessage());
+        }
+
+    }
 }

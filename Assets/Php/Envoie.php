@@ -19,4 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     file_put_contents($cheminFichier, $informations, FILE_APPEND);
 }
+
+header('Location : /Index.php')
+
 ?>

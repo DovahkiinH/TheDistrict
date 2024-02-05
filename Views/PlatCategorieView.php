@@ -27,7 +27,7 @@
                             <h5 class="card-title text-center">' . $plat['libelle'] . '</h5>
                             <p class="card-text">' . $plat['description'] . '</p>
                             <p class="card-text">Prix: ' . $plat['prix'] . ' €</p>
-                            <a href="commande.php?plat_id=' . $plat['id'] . '" class="btn btn-primary btn-mod">Passer une commande</a>
+                            <a href="Commande.php?plat_id=' . $plat['id'] . '" class="btn btn-primary btn-mod">Passer une commande</a>
                         </div>
                     </div>
                 </div>';

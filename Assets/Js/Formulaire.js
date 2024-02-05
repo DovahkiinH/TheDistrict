@@ -47,11 +47,29 @@ $(document).ready(function() {
         }
     }
 
+    function validateQuantite() {
+        var quantite = $('Qquantite').val();
+        if (/^\d+$/.test(quantite) && quantite > 0) {
+            $('#Quantite_erreur').addClass('d-none');
+            return true;
+        } else {
+            $('#Quantite_erreur').removeClass('d-none');
+            return false;
+        }
+    }
+
     $('#verifierBouton').click(function() {
         var nomValide = validateName();
         var emailValide = validateEmail();
         var telephoneValide = validateTelephone();
         var adresseValide = validateAdresse();
+        var quantiteValide = validateQuantite();
+
+        $('#NomPrenom').val('');
+        $('#email').val('');
+        $('#Telephone').val('');
+        $('#Adresse').val('');
+        $('#Quantite').val('');
 
     });
 });

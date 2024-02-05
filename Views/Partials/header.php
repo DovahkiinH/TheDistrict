@@ -53,8 +53,6 @@
                        <li class="nav-item"> <a class="nav-link text-decoration-underline" href="Plats.php">Plats</a> </li>
 
                        <li class="nav-item"> <a class="nav-link text-decoration-underline" href="Contact.php">Contact</a> </li>
-
-                       <li class="nav-item disabled"> <a class="nav-link text-decoration-underline" href="Commande.php">Commande</a> </li>
             
                     </ul>
 

@@ -65,7 +65,7 @@
 
                 <div class="d-flex justify-content-end">
 
-                  <button id="verifierBouton" class="btn btn-primary my-2">Envoyer</button>
+                  <button type="submit" id="verifierBouton" class="btn btn-primary my-2" >Envoyer</button>
 
                 </div>
 
