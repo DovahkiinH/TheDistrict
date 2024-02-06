@@ -10,5 +10,9 @@ $stmt->execute(['query' => "%$query%"]);
 $plat = $stmt->fetchAll();
 
 foreach ($plat as $plat) {
-    echo "<li class='list-group-item'>$plat[libelle]</li>";
+    echo "<li class='list-group-item'>$plat[libelle]</li>
+     <li class='list-group-item'>$plat[prix]€</li>
+     <li class='list-group-item'>$plat[description]</li>";
+
 }
+

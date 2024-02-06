@@ -1,0 +1,17 @@
+{
+    "name": "loick/the-district",
+    "autoload": {
+        "psr-4": {
+            "Loick\\TheDistrict\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DovahkiinH",
+            "email": "loick.caplier@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

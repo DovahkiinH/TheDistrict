@@ -65,7 +65,7 @@ class DAO {
 
             $query = "SELECT libelle, image
             FROM categorie
-            WHERE active = 'yes'
+            WHERE active = 'Yes'
             LIMIT 6";
 
             $stmt = $bdd->prepare($query);

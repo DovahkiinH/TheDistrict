@@ -12,20 +12,26 @@
 
           </video>
 
-          <div class="custom-search-bg">
+          <div class="custom-search-bg col-12 d-flex flex-wrap">
 
-            <form class="form-inline">
+            <form class="form-inline col-4">
 
                 <div class="input-group">
 
                     <input type="text" id="searchInput" class="form-control" placeholder="Saisissez un plat...">
                 
                 </div>
-
-            </form>
+                
+            <div class="col-12 flex-end">
             
             <ul id="results" class="list-group mt-2"></ul>
         
+            </div>
+
+            </form>
+
+            
+
         </div>
         
 </div>
