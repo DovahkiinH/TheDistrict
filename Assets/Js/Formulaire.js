@@ -1,75 +1,28 @@
-$(document).ready(function() {
+function validateCommandeForm() {
+    var NomPrenom = $("#NomPrenom").val();
+    var email = $("#email").val();
+    var Adresse = $("#Adresse").val();
+    var Quantite = $("#Quantite").val();
 
-    function validateName() {
-        var NomPrenom = $('#NomPrenom').val();
-        if (/^[a-zA-Z\s]*$/.test(NomPrenom)) {
-            $('#nom_erreur').addClass('d-none');
-            return true;
-        } else {
-            $('#nom_erreur').removeClass('d-none');
-            return false;
-        }
+    if (NomPrenom && email && Adresse && Quantite) {
+        return true;
+    } else {
+        alert("Veuillez remplir tous les champs du formulaire de commande.");
+        return false;
     }
+}
 
+$("#commandeForm").submit(function (event) {
 
-    function validateEmail() {
-        var email = $('#email').val();
-        if (/^\S+@\S+\.\S+$/.test(email)) {
-            $('#email_erreur').addClass('d-none');
-            return true;
-        } else {
-            $('#email_erreur').removeClass('d-none');
-            return false;
-        }
+    if (validateCommandeForm()) {
+        var commandeFormData = {
+            NomPrenom: $("#NomPrenom").val(),
+            email: $("#email").val(),
+            Adresse: $("#Adresse").val(),
+            Quantite: $("#Quantite").val()
+        };
+
+    } else {
+
     }
-
-
-    function validateTelephone() {
-        var telephone = $('#Telephone').val();
-        if (/^(\d{2}\s?){4}\d{2}$/.test(telephone)) {
-            $('#Tel_erreur').addClass('d-none');
-            return true;
-        } else {
-            $('#Tel_erreur').removeClass('d-none');
-            return false;
-        }
-    }
-
-
-    function validateAdresse() {
-        var adresse = $('#Adresse').val();
-        if (adresse.length > 0) {
-            $('#Adresse_erreur').addClass('d-none');
-            return true;
-        } else {
-            $('#Adresse_erreur').removeClass('d-none');
-            return false;
-        }
-    }
-
-    function validateQuantite() {
-        var quantite = $('Qquantite').val();
-        if (/^\d+$/.test(quantite) && quantite > 0) {
-            $('#Quantite_erreur').addClass('d-none');
-            return true;
-        } else {
-            $('#Quantite_erreur').removeClass('d-none');
-            return false;
-        }
-    }
-
-    $('#verifierBouton').click(function() {
-        var nomValide = validateName();
-        var emailValide = validateEmail();
-        var telephoneValide = validateTelephone();
-        var adresseValide = validateAdresse();
-        var quantiteValide = validateQuantite();
-
-        $('#NomPrenom').val('');
-        $('#email').val('');
-        $('#Telephone').val('');
-        $('#Adresse').val('');
-        $('#Quantite').val('');
-
-    });
 });

@@ -10,9 +10,16 @@ $stmt->execute(['query' => "%$query%"]);
 $plat = $stmt->fetchAll();
 
 foreach ($plat as $plat) {
-    echo "<li class='list-group-item'>$plat[libelle]</li>
-     <li class='list-group-item'>$plat[prix]€</li>
-     <li class='list-group-item'>$plat[description]</li>";
+    echo '
+    <div class="card col-5 pt-2 px-2">
+                        <img src="Assets/Img/food/' . $plat['image'] . '" class="card-img-top card-img" alt="Image de la carte">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">' . $plat['libelle'] . '</h5>
+                            <p class="card-text">' . $plat['description'] . '</p>
+                            <p class="card-text">Prix: ' . $plat['prix'] . ' €</p>
+                            <a href="Commande.php?plat_id=' . $plat['id'] . '" class="btn btn-primary btn-mod">Passer une commande</a>
+                        </div>
+                    </div>';
 
 }
 

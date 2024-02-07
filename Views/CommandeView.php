@@ -23,15 +23,13 @@
 
         </div>
 
-            <fieldset class="d-flex justify-content-center flex-wrap">
+            <form id="commandeForm" class="d-flex justify-content-center flex-wrap" action="MailCommande.php" method="POST" enctype="multipart/form-data">
 
                 <div class="col-4">
     
                   <label for="NomPrenom" class="mt-5">Nom et Prénom:</label>
 
                   <input type="text" name="NomPrenom" id="NomPrenom" placeholder="Veuillez saisir votre nom et votre prénom" required="required" class="form-control mr-sm-2">
-    
-                  <div class="alert alert-danger mt-2 d-none" id="nom_erreur"> Veuillez saisir un nom et un prénom valide.</div>
 
                 </div>
 
@@ -43,8 +41,6 @@
                         
                         <input type="email" name="email" id="email" placeholder="dave.loper@afpa.fr" required="required" class="form-control mr-sm-2">
 
-                        <div class="alert alert-danger mt-2 d-none" id="email_erreur"> Veuillez saisir une adresse email valide.</div>
-
                     </div>
 
                     <div class="col-4">
@@ -52,8 +48,6 @@
                         <label for="Telephone" class="mt-5">Téléphone:</label>
                         
                         <input type="text" name="Telephone" id="Telephone" placeholder="06 00 00 00 00" required="required" class="form-control mr-sm-2">
-
-                        <div class="alert alert-danger mt-2 d-none" id="Tel_erreur"> Veuillez saisir un numéro de téléphone valide.</div>
 
                     </div>
 
@@ -67,8 +61,6 @@
                     
                         <input type="text" name="Adresse" id="Adresse" required="required" class="form-control mr-sm-2">
 
-                        <div class="alert alert-danger mt-2 d-none" id="Adresse_erreur"> Veuillez saisir une adresse valide.</div>
-
                     </div>
 
                     <div class ="mb-2 col-4">
@@ -77,7 +69,9 @@
                     
                         <input type="text" name="Quantite" id="Quantite" required="required" class="form-control mr-sm-2">
 
-                        <div class="alert alert-danger mt-2 d-none" id="Quantite_erreur"> Veuillez saisir une quantité valide.</div>
+                        <input type="hidden" name="libelle" value="<?php echo $plat['libelle']; ?>">
+                        
+                        <input type="hidden" name="prix" value="<?php echo $plat['prix']; ?>">
                 
                 </div>
 
@@ -85,11 +79,11 @@
 
                     <div class="align-self-end">
 
-                    <button id="verifierBouton" class="btn btn-primary my-2">Valider</button>
+                    <button class="btn btn-primary my-2">Valider</button>
 
                     </div>
 
-            </fieldset>
+            </form>
 
         </section>
 

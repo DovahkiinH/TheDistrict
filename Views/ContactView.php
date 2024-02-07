@@ -3,7 +3,7 @@
   ?>
         <section>
 
-            <fieldset>
+            <form>
 
                 <div class="col-8 d-flex justify-content-between">
 
@@ -69,7 +69,7 @@
 
                 </div>
 
-            </fieldset>
+            </form>
 
         </section>
 

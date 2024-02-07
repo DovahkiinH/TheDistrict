@@ -22,21 +22,22 @@
                 
                 </div>
                 
-            <div class="col-12 flex-end">
-            
-            <ul id="results" class="list-group mt-2"></ul>
-        
-            </div>
-
             </form>
-
             
-
+            
+            
         </div>
         
-</div>
+        
+    </div>
+    
+    <div class="d-flex justify-content-center">
+    
+    <div id="results" class="d-flex"></div>
 
-        <div class="parallax d-none d-md-block"></div>
+    </div>
+
+    <div class="parallax d-none d-md-block"></div>
 
         <div class=" mt-3 row">
 
