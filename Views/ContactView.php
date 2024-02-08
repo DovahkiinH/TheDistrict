@@ -1,82 +1,83 @@
 <?php include 'Views/Partials/header.php'; 
   
-  ?>
-        <section>
+?>
 
-            <form>
+<section>
 
-                <div class="col-8 d-flex justify-content-between">
+    <form>
 
-                    <div class="col-6">
+        <div class="col-8 d-flex justify-content-between">
+
+            <div class="col-6">
     
-                    <label for="Nom" class="mt-5">Nom:</label>
+                <label for="Nom" class="mt-5">Nom:</label>
 
-                    <input type="text" name="Nom" id="Nom" placeholder="Veuillez saisir votre nom " required="required" class="form-control mr-sm-2">
+                <input type="text" name="Nom" id="Nom" placeholder="Veuillez saisir votre nom " required="required" class="form-control mr-sm-2">
     
-                    <div class="alert alert-danger mt-2 d-none" id="nom_erreur"> Veuillez saisir un nom et un prénom valide.</div>
+                <div class="alert alert-danger mt-2 d-none" id="nom_erreur"> Veuillez saisir un nom et un prénom valide.</div>
 
-                    </div>
+            </div>
 
-                    <div class="col-5">
+            <div class="col-5">
     
-                    <label for="Prenom" class="mt-5">Prénom:</label>
+                <label for="Prenom" class="mt-5">Prénom:</label>
 
-                    <input type="text" name="Prenom" id="Prenom" placeholder="Veuillez saisir votre prénom " required="required" class="form-control mr-sm-2">
+                <input type="text" name="Prenom" id="Prenom" placeholder="Veuillez saisir votre prénom " required="required" class="form-control mr-sm-2">
     
-                    <div class="alert alert-danger mt-2 d-none" id="prenom_erreur"> Veuillez saisir un nom et un prénom valide.</div>
+                <div class="alert alert-danger mt-2 d-none" id="prenom_erreur"> Veuillez saisir un nom et un prénom valide.</div>
 
-                    </div>
+            </div>
 
-                </div>
+        </div>
 
-                <div class="col-8 d-flex justify-content-between">
+        <div class="col-8 d-flex justify-content-between">
 
-                    <div class="col-6">
+            <div class="col-6">
 
-                        <label for="email" class="mt-5">Email:</label>
+                <label for="email" class="mt-5">Email:</label>
                         
-                        <input type="email" name="email" id="email" placeholder="dave.loper@afpa.fr" required="required" class="form-control mr-sm-2">
+                <input type="email" name="email" id="email" placeholder="dave.loper@afpa.fr" required="required" class="form-control mr-sm-2">
 
-                        <div class="alert alert-danger mt-2 d-none" id="email_erreur"> Veuillez saisir une adresse email valide.</div>
+                <div class="alert alert-danger mt-2 d-none" id="email_erreur"> Veuillez saisir une adresse email valide.</div>
 
-                    </div>
+            </div>
 
-                    <div class="col-5">
+            <div class="col-5">
 
-                        <label for="Telephone" class="mt-5">Téléphone:</label>
+                <label for="Telephone" class="mt-5">Téléphone:</label>
                         
-                        <input type="text" name="Telephone" id="Telephone" placeholder="06 00 00 00 00" required="required" class="form-control mr-sm-2">
+                <input type="text" name="Telephone" id="Telephone" placeholder="06 00 00 00 00" required="required" class="form-control mr-sm-2">
 
-                        <div class="alert alert-danger mt-2 d-none" id="Tel_erreur"> Veuillez saisir un numéro de téléphone valide.</div>
+                <div class="alert alert-danger mt-2 d-none" id="Tel_erreur"> Veuillez saisir un numéro de téléphone valide.</div>
 
-                    </div>
+            </div>
 
-                </div>
+        </div>
 
-                <div>
+        <div>
 
-                    <label for="Demande" class="mt-5">Votre demande:</label>
+            <label for="Demande" class="mt-5">Votre demande:</label>
                     
-                    <input type="text" name="Demande" id="Demande" required="required" class="form-control mr-sm-2">
+            <input type="text" name="Demande" id="Demande" required="required" class="form-control mr-sm-2">
 
-                    <div class="alert alert-danger mt-2 d-none" id="Demande_erreur"> Veuillez saisir une adresse valide.</div>
+            <div class="alert alert-danger mt-2 d-none" id="Demande_erreur"> Veuillez saisir une adresse valide.</div>
 
-                </div>
+        </div>
 
-                <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-end">
 
-                  <button type="submit" id="verifierBouton" class="btn btn-primary my-2" >Envoyer</button>
+            <button type="submit" id="verifierBouton" class="btn btn-primary my-2" >Envoyer</button>
 
-                </div>
+        </div>
 
-            </form>
+    </form>
 
-        </section>
+</section>
 
-        <?php include 'Views/Partials/footer.php';
+<?php require_once 'Views/Partials/footer.php';
       
-      ?>
+?>
 
-    <script src="/Assets/Js/FormulaireContact.js">
+<script src="/Assets/Js/FormulaireContact.js">
 
-    </script>
+</script>
