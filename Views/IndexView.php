@@ -14,7 +14,7 @@
 
         <div class="custom-search-bg col-12 d-flex flex-wrap">
 
-            <form class="form-inline col-4">
+            <form class="form-inline col-2">
 
                 <div class="input-group">
 
