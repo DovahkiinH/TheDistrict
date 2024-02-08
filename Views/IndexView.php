@@ -47,11 +47,12 @@ $categories = DAO::getCategoriePopulaire();
 
         echo '
 
-            <div class="col-6 col-lg-4 my-3 d-flex justify-content-center">
+            <div class="col-6 col-lg-4 my-3 d-flex justify-content-center text-center">
                 <div class="card col-5 pt-2 px-2">
                     <img src="Assets/Img/category/' . $categorie['image'] . '" class="card-img-top card-img" alt="Image de la carte">
                     <div class="card-body">
                         <h5 class="card-title text-center">' . $categorie['libelle'] . '</h5>
+                        <a href="PlatCategorie.php?categorie_id=' . $categorie['id'] . '" class="btn btn-primary btn-mod">Voir les plats</a>
                     </div>
                 </div>
             </div>';
@@ -73,11 +74,12 @@ $plats = DAO::getPlatPlusVendu();
 
         echo '
 
-            <div class="col-6 col-lg-4 my-3 d-flex justify-content-center">
+            <div class="col-6 col-lg-4 my-3 d-flex justify-content-center text-center">
                 <div class="card col-5 pt-2 px-2">
                     <img src="Assets/Img/food/' . $plat['image'] . '" class="card-img-top card-img" alt="Image de la carte">
                     <div class="card-body">
                         <h5 class="card-title text-center">' . $plat['libelle'] . '</h5>
+                        <a href="Commande.php?plat_id=' . $plat['id'] . '" class="btn btn-primary btn-mod">Passer une commande</a>
                     </div>
                 </div>
             </div>';
