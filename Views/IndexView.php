@@ -29,9 +29,9 @@
         
 </div>
     
-<div class="d-flex justify-content-center">
+<div>
     
-    <div id="results" class="d-flex"></div>
+    <div id="results" class="mt-3 d-flex justify-content-around flex-wrap"></div>
 
 </div>
 
