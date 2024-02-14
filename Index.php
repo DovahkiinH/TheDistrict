@@ -5,5 +5,3 @@
   $plats = DAO::getPlatPlusVendu();
 
   require_once 'Views/IndexView.php';
-
-        
