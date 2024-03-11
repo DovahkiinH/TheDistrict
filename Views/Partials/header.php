@@ -46,7 +46,7 @@
 
                     <ul class="navbar-nav">
             
-                       <li class="nav-item active"> <a class="nav-link text-decoration-underline" href="Index.php">Accueil</a> </li>
+                       <li class="nav-item active"> <a class="nav-link text-decoration-underline" href="index.php">Accueil</a> </li>
             
                        <li class="nav-item"> <a class="nav-link text-decoration-underline" href="Categorie.php">Catégorie</a> </li>
             
